@@ -1,45 +1,35 @@
-# ![cat-pad](header.png)
-
-[![Build Status](https://travis-ci.org/sindresorhus/cat-pad.svg?branch=master)](https://travis-ci.org/sindresorhus/cat-pad)
-
+# rugga-pad
 
 ## Install
-
 ```
-$ npm install --save cat-pad
+$ npm install --save rugga-pad
 ```
-
 
 ## Usage
 
 ```js
-const catPad = require('cat-pad');
+const ruggaPad = require('rugga-pad');
 
-catPad('Meow', 6);
-//=> '🐈🐈Meow'
+ruggaPad('ball', 6);
+//=> '🏉🏉ball'
 ```
-
 
 ## API
 
-### catPad(input, length)
+### ruggaPad(input, length)
 
-Pads `input` with cats on the left side if it's shorter than `length`. Padding cats are truncated if they exceed `length`.
+Pads `input` with rugby balls on the left side if it's shorter than `length`. Padding rugby balls are truncated if they exceed `length`.
 
 #### input
-
 Type: `string`
 
 String to pad.
 
 #### length
-
 Type: `number`<br>
 Default: `0`
 
 Padding length.
 
-
 ## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+Created with ♥ by [Tiaan du Plessis](https://github.com/mightyCrow). Licensed under the MIT License.
