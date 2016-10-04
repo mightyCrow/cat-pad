@@ -1,13 +1,12 @@
 {
-  "name": "cat-pad",
-  "version": "2.0.0",
-  "description": "Left pad a string with cats",
+  "name": "rugga-pad",
+  "version": "1.0.0",
+  "description": "Left pad a string with rugby balls",
   "license": "MIT",
-  "repository": "sindresorhus/cat-pad",
+  "repository": "mightyCrow/rugga-pad",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Tiaan du Plessis",
+    "email": "tiaanduplessis@hotmail.com"
   },
   "engines": {
     "node": ">=4"
@@ -19,10 +18,9 @@
     "index.js"
   ],
   "keywords": [
-    "cat",
+    "rugby",
     "pad",
-    "cats",
-    "meow",
+    "rugby ball",
     "left",
     "indent",
     "format",
